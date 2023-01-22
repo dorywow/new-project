@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My simple project</title>
+    <link rel="stylesheet" href="dist/bundle.css">
+    <script src="dist/bundle.js"></script>
+
+    <link rel="stylesheet" href="src/sass/styles.css"> <!-- Uncomment this for local development -->
+</head>
+<body>
+    <header class="Header">
+        <div class="container">
+            <nav class="Header-nav">
+                <ul class="Header-nav-list">
+                    <li class="Header-nav-listItem"><a class="Header-nav-link" href="/">Home</a></li>
+                    <li class="Header-nav-listItem"><a class="Header-nav-link" href="#about">About me</a></li>
+                    <li class="Header-nav-listItem"><a class="Header-nav-link" href="#mywork">My work</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="about" class="AboutMe">
+        <div class="container">
+            <div class="AboutMe-content">
+                <div class="AboutMe-content-info">
+                    <h1 class="AboutMe-content-title">Jan Dorschner</h1>
+                    <p class="AboutMe-content-description">I'm 32 years old and I'm a frontend developer. <br />I mainly work with HTML, CSS and Javascript. I have been in the industry for 7 years, so I have experience also with ui/ux and SEO. <br />Most of the time, I worked on e-shop creation.</p>
+                    <a class="AboutMe-content-button" href="#">Learn more</a>
+                </div>
+                <img class="AboutMe-content-img" src="src/images/user.png" alt="user">
+            </div>
+        </div>
+    </main>
+
+    <section id="mywork" class="MyWork">
+        <div class="container">
+            <h2 class="MyWork-title">What i did</h2>
+            <div class="MyWork-grid">
+                <a target="_blank" href="https://www.zlutahala.cz/">
+                    <article class="Article">
+                        <div class="Article-box">
+                            <img class="Article-box-img" src="src/images/project1.jpg" alt="Project ZlutaHala">
+                        </div>
+                        <h3 class="Article-title">Project ZlutaHala</h3>
+                        <p class="Article-description">Bohatý sortiment moderního a zároveň cenově dostupného nábytku. Najdete u nás sedací soupravy, obývací stěny, sektorový nábytek, stoly, židle, postele</p>
+                    </article>
+                </a>
+                <a target="_blank" href="https://www.kitchenaid.cz/">
+                    <article class="Article">
+                        <div class="Article-box">
+                            <img class="Article-box-img" src="src/images/project2.jpg" alt="Project KitchenAid">
+                        </div>
+                        <h3 class="Article-title">Project KitchenAid</h3>
+                        <p class="Article-description">Ti nejlepší kuchaři i cukráři pracují s nejlepším vybavením. Tak se neomezujte v rozletu. Vyberte si z naší nabídky ikonických kuchyňských robotů.</p>
+                    </article>
+                </a>
+                <a target="_blank" href="https://www.limbeck.cz/">
+                    <article class="Article">
+                        <div class="Article-box">
+                            <img class="Article-box-img" src="src/images/project3.jpg" alt="Project Limbeck">
+                        </div>
+                        <h3 class="Article-title">Project Limbeck</h3>
+                        <p class="Article-description">Vyrábíme a prodáváme pánské košile a kravaty Limbeck. Nabízíme košile společenské, jednobarevné, svatební. Košile odpovídají všem náročným požadavkům na pohodlí a kvalitu.</p>
+                    </article>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        @Jack Jackson 2023
+    </footer>
+</body>
+</html>

@@ -1,4 +1,5 @@
 /node_modules
+/dist
 /src/sass/styles.css
 /src/sass/styles.css.map
 npm-debug.log
